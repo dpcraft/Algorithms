@@ -1,7 +1,10 @@
 /**
 * 九死南荒吾不恨，兹游奇绝冠平生！
 */
+import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.algs4.UF;
+
+import java.util.ArrayList;
 
 /**
  * @author dpcraft
@@ -11,5 +14,13 @@ import edu.princeton.cs.algs4.UF;
 public class Test {
     public static void main(String[] args) {
         UF.main(args);
+
     }
+}
+class gen<T>{
+    T[] ts;
+    gen(int capicity){
+        ts = (T[]) new Object[capicity];
+    }
+
 }
